@@ -1,0 +1,123 @@
+/* projectForm.html css */
+
+body {
+    background-image: linear-gradient(to right, rgb(128, 114, 255), rgb(255, 236, 173));
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: rgb(255, 146, 44);
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.imgcontainer {
+    text-align: center;
+    /* margin: 24px 0 12px 0; */
+}
+
+#imgDRDO {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    background-color: #baffbd;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.radio-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+
+#SubmitBtn {
+    /* width: 50%; */
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-top: 10%;
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+#SubmitBtn:hover {
+    background-color: #45a049;
+}
+
+#SaveBtn {
+    /* width: 50%; */
+    background-color: #4596ff;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 25%;
+    margin-top: 20%;
+
+    display: inline-block;
+    margin: 0 20px;
+    margin-bottom: 20px;
+}
+
+#SaveBtn:hover {
+    background-color: #2483ff;
+}

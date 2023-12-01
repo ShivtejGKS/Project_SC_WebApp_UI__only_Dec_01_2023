@@ -1,0 +1,88 @@
+        /* Inline CSS with the same styles as in the provided CSS file */
+
+        body {
+          background-image: linear-gradient(to right, rgb(255, 239, 216), rgb(255, 236, 173));
+          /* background-image: url(../assets/img/govt_of_india.png); */
+      }
+
+      header {
+          background-color: rgb(255, 146, 44);
+          color: #ffffff;
+          font-size: 30px;
+      }
+
+      #LoginCardId {
+          box-shadow: 10px 10px rgb(247, 209, 127);
+          border-radius: 10px;
+          margin-left: 10%;
+          margin-right: 10%;
+      }
+
+      form {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: #0adaff;
+          padding: 20px;
+          border-radius: 10px;
+          margin-top: 10%;
+      }
+
+      input[type=text] {
+          width: 50%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+          border-radius: 4px;
+      }
+
+      input[type=password] {
+          width: 50%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+          border-radius: 4px;
+      }
+
+      #loginButtonId {
+          width: 50%;
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+          margin-left: 25%;
+          margin-top: 10%;
+      }
+
+      #loginButtonId:hover {
+          background-color: #3b773e;
+      }
+
+      .imgcontainer {
+          text-align: center;
+      }
+
+      #imgDRDO {
+          width: 60%;
+          border-radius: 50%;
+      }
+
+      span.psw {
+          float: right;
+          padding-top: 16px;
+      }
+
+      @media screen and (max-width: 300px) {
+          span.psw {
+              display: block;
+              float: none;
+          }
+      }

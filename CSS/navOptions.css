@@ -1,0 +1,165 @@
+/* navOption.html CSS */
+
+body {
+  background-image: linear-gradient(to right, rgb(255, 193, 245), rgb(148, 194, 255));
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+header {
+  background-color: rgb(93, 64, 255);
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+
+}
+
+#imgDRDO {
+  width: 10%;
+  border-radius: 50%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #03467E;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #0079BE;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0079BE;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #3bb7ff;
+  color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li {
+  float: left;
+  margin-left: 180px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #0079BE;
+}
+
+#logoutbtn {
+  background-color: rgb(255, 14, 14);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  width: 15%;
+}
+
+#logoutbtn:hover {
+  background-color: rgb(255, 7, 123);
+}
+
+/* /////////////////////////////////////////////////////// */
+/* Project Details Table css  */
+/* ///////////////////////////////////////////// */
+
+#tableid{
+  margin: 0 auto; 
+
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;
+  
+}
+
+th{
+ background-color: rgb(255, 251, 0);
+  
+}
+
+td {
+  background-color: rgb(255, 208, 177);
+}
+
+
+
+/* ////////////////MEDIA QUERIES////////////////// */
+
+/* @media (min-width: 1500px) {
+  .navContainer{
+      max-width: 80%;
+ }
+} */
+
+/* @media only screen 
+  and (min-width: 1367px) { 
+    ...
+} */
+
+/* for laptops */
+/* @media only screen 
+  and (min-width: 991px) 
+  and (max-width: 1366px) { 
+    ...
+}  */
+
+/* for large tablets */
+/* @media only screen 
+  and (min-width: 769px) 
+  and (max-width: 990px) { 
+    ...
+}  */

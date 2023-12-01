@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>rci webapp Login Page</title>
+</head>
+
+<body>
+    <header>
+        <center>WELCOME</center>
+    </header>
+    <nav style="background-color: #03467E;">
+        <div class="imgcontainer">
+            <img id="imgDRDO_web" src="./assets/img/drdo_logo_top.png">
+        </div>
+    </nav>
+    <div id="LoginCardId" class="card">
+        <form id="projectFormId" style="align-items: center;">
+            <div class="imgcontainer">
+                <img id="imgDRDO" src="./assets/img/DRDO_Logo.jpg">
+            </div>
+
+            <div id="User_Pass_id" class="container">
+                <label id="userName" style="margin-right: 20px;"><b>Username :</b></label>
+                <input id="usernameid" type="text" placeholder="Enter Username" name="uname" required>
+                <br>
+                <label id="psw" style="margin-right: 25px;"><b>Password :</b></label>
+                <input id="passwordid" type="password" placeholder="Enter Password" name="psw" required>
+
+                <button id="loginButtonId" type="button" onclick="login()">Login</button>
+
+                <!-- Display login messages here -->
+                <div id="loginMessage" style="margin-top: 10px;"></div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="./JS/server/index.js"></script>
+</body>
+
+</html>
